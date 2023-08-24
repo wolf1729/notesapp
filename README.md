@@ -19,15 +19,15 @@ in the future i am planning to add the following features
 Make sure you have Flutter installed on your system. You can follow the official Flutter installation guide: Flutter Installation
 
 Clone the Repository: Clone this repository to your local machine using the following command: git clone 
-`https://github.com/wolf1729/BMI_App.git`
+`https://github.com/wolf1729/notesapp.git`
 
-Navigate to the Project Directory: Change your working directory to the project folder: 
-`cd BMI_App`
+Navigate to the Project Directory: Change your working directory to the project folder
+`cd notesapp`
 
-Get Dependencies: Fetch the required dependencies by running: 
+Get Dependencies: Fetch the required dependencies by running
 `flutter pub get`
 
-Run the App: Launch the BMI Calculator app on an emulator or a physical device using: 
+Run the App: Launch the BMI Calculator app on an emulator or a physical device using
 `flutter run`
 
 ## Contributing 
