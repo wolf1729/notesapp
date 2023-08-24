@@ -32,7 +32,7 @@ class _registrationviewState extends State<registrationview> {
             body: Form(
                 key: _formKey,
                 child: Padding(
-                  padding: const EdgeInsets.fromLTRB(40, 120, 40, 0),
+                  padding: const EdgeInsets.fromLTRB(40, MediaQuery.of(context).size.height * 0.2, 40, 0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     // mainAxisAlignment: MainAxisAlignment.center,
@@ -44,7 +44,7 @@ class _registrationviewState extends State<registrationview> {
                           //     fontSize: 35, fontWeight: FontWeight.w800),
                           ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(0, 2, 0, 10),
+                        padding: const EdgeInsets.fromLTRB(0, 2, 0, MediaQuery.of(context).size.height * 0.06),
                         child: Text(
                           "please register to continue.",
                           style: GoogleFonts.poppins(
@@ -162,7 +162,7 @@ class _registrationviewState extends State<registrationview> {
                               child: Row(
                                 children: [
                                   Padding(
-                                    padding: EdgeInsets.fromLTRB(28, 0, 5, 0),
+                                    padding: EdgeInsets.fromLTRB(MediaQuery.of(context).size.height * 0.04, 0, 0, 0),
                                     child: Text(
                                       "REGISTER",
                                       style: GoogleFonts.poppins(
@@ -184,7 +184,7 @@ class _registrationviewState extends State<registrationview> {
                       ),
                       Spacer(),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 0, 0, 100),
+                        padding: const EdgeInsets.fromLTRB(MediaQuery.of(context).size.width * 0.25, 0, 0, MediaQuery.of(context).size.width * 0.06),
                         child: GestureDetector(
                           onTap: () {
                             Navigator.of(context).pushNamedAndRemoveUntil('/login/', (route) => false);
