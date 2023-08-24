@@ -33,7 +33,7 @@ class _loginviewState extends State<loginview> {
             body: Form(
                 key: _formKey,
                 child: Padding(
-                  padding: const EdgeInsets.fromLTRB(40, 120, 40, 0),
+                  padding: const EdgeInsets.fromLTRB(40, MediaQuery.of(context).size.height * 0.2, 40, 0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     // mainAxisAlignment: MainAxisAlignment.center,
@@ -45,7 +45,7 @@ class _loginviewState extends State<loginview> {
                           //     fontSize: 35, fontWeight: FontWeight.w800),
                           ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(0, 2, 0, 10),
+                        padding: const EdgeInsets.fromLTRB(0, 0, 0, MediaQuery.of(context).size.height * 0.06),
                         child: Text(
                           "please sign in to continue.",
                           style: GoogleFonts.poppins(
@@ -191,7 +191,7 @@ class _loginviewState extends State<loginview> {
                       ),
                       Spacer(),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(30, 0, 0, 100),
+                        padding: const EdgeInsets.fromLTRB(MediaQuery.of(context).size.height * 0.07, 0, 0, MediaQuery.of(context).size.height * 0.06),
                         child: GestureDetector(
                           onTap: () {
                             Navigator.of(context).pushNamedAndRemoveUntil('/register/', (route) => false);
