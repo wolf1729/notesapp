@@ -18,8 +18,8 @@ in the future i am planning to add the following features
 ## How to Use Install Flutter 
 Make sure you have Flutter installed on your system. You can follow the official Flutter installation guide: Flutter Installation
 
-Clone the Repository: Clone this repository to your local machine using the following command: git clone 
-`https://github.com/wolf1729/notesapp.git`
+Clone the Repository: Clone this repository to your local machine using the following command: 
+`git clone https://github.com/wolf1729/notesapp.git`
 
 Navigate to the Project Directory: Change your working directory to the project folder
 `cd notesapp`
